@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4718F3C41C3134D900A9183B /* remydb.sql in Resources */ = {isa = PBXBuildFile; fileRef = 4718F3C31C3134D900A9183B /* remydb.sql */; };
+		476297E91C2806E700D6BC3F /* DBManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 476297E81C2806E700D6BC3F /* DBManager.m */; };
+		476297EB1C2807B300D6BC3F /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 476297EA1C2807B300D6BC3F /* libsqlite3.tbd */; };
+		479B22B61C22CD4A00BC522B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 479B22B51C22CD4A00BC522B /* main.m */; };
+		479B22B91C22CD4A00BC522B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 479B22B81C22CD4A00BC522B /* AppDelegate.m */; };
+		479B22C11C22CD4A00BC522B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 479B22C01C22CD4A00BC522B /* Assets.xcassets */; };
+		479B22C41C22CD4A00BC522B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 479B22C21C22CD4A00BC522B /* LaunchScreen.storyboard */; };
+		479B22CF1C22CD4A00BC522B /* RemyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 479B22CE1C22CD4A00BC522B /* RemyTests.m */; };
+		479B22DA1C22CD4A00BC522B /* RemyUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 479B22D91C22CD4A00BC522B /* RemyUITests.m */; };
+		479B22EB1C22CEF900BC522B /* contact2.png in Resources */ = {isa = PBXBuildFile; fileRef = 479B22E71C22CEF900BC522B /* contact2.png */; };
+		479B22EC1C22CEF900BC522B /* icon-person.png in Resources */ = {isa = PBXBuildFile; fileRef = 479B22E81C22CEF900BC522B /* icon-person.png */; };
+		479B22ED1C22CEF900BC522B /* Default-Portrait.png in Resources */ = {isa = PBXBuildFile; fileRef = 479B22E91C22CEF900BC522B /* Default-Portrait.png */; };
+		479B22EE1C22CEF900BC522B /* remy_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 479B22EA1C22CEF900BC522B /* remy_icon.png */; };
+		479B22F01C22CF0D00BC522B /* MainStoryBoard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 479B22EF1C22CF0D00BC522B /* MainStoryBoard.storyboard */; };
+		479B22F31C22CF3300BC522B /* RemyList.m in Sources */ = {isa = PBXBuildFile; fileRef = 479B22F21C22CF3300BC522B /* RemyList.m */; };
+		479B22F61C22CF5000BC522B /* CreateNewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 479B22F51C22CF5000BC522B /* CreateNewViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		479B22CB1C22CD4A00BC522B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 479B22A91C22CD4A00BC522B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 479B22B01C22CD4A00BC522B;
+			remoteInfo = Remy;
+		};
+		479B22D61C22CD4A00BC522B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 479B22A91C22CD4A00BC522B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 479B22B01C22CD4A00BC522B;
+			remoteInfo = Remy;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4718F3C31C3134D900A9183B /* remydb.sql */ = {isa = PBXFileReference; lastKnownFileType = file; path = remydb.sql; sourceTree = "<group>"; };
+		476297E71C2806E700D6BC3F /* DBManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBManager.h; sourceTree = "<group>"; };
+		476297E81C2806E700D6BC3F /* DBManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBManager.m; sourceTree = "<group>"; };
+		476297EA1C2807B300D6BC3F /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		479B22B11C22CD4A00BC522B /* Remy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Remy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		479B22B51C22CD4A00BC522B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		479B22B71C22CD4A00BC522B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		479B22B81C22CD4A00BC522B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		479B22C01C22CD4A00BC522B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		479B22C31C22CD4A00BC522B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		479B22C51C22CD4A00BC522B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		479B22CA1C22CD4A00BC522B /* RemyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RemyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		479B22CE1C22CD4A00BC522B /* RemyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RemyTests.m; sourceTree = "<group>"; };
+		479B22D01C22CD4A00BC522B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		479B22D51C22CD4A00BC522B /* RemyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RemyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		479B22D91C22CD4A00BC522B /* RemyUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RemyUITests.m; sourceTree = "<group>"; };
+		479B22DB1C22CD4A00BC522B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		479B22E71C22CEF900BC522B /* contact2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = contact2.png; sourceTree = "<group>"; };
+		479B22E81C22CEF900BC522B /* icon-person.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-person.png"; sourceTree = "<group>"; };
+		479B22E91C22CEF900BC522B /* Default-Portrait.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait.png"; sourceTree = "<group>"; };
+		479B22EA1C22CEF900BC522B /* remy_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = remy_icon.png; sourceTree = "<group>"; };
+		479B22EF1C22CF0D00BC522B /* MainStoryBoard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainStoryBoard.storyboard; sourceTree = "<group>"; };
+		479B22F11C22CF3300BC522B /* RemyList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RemyList.h; sourceTree = "<group>"; };
+		479B22F21C22CF3300BC522B /* RemyList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RemyList.m; sourceTree = "<group>"; };
+		479B22F41C22CF5000BC522B /* CreateNewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreateNewViewController.h; sourceTree = "<group>"; };
+		479B22F51C22CF5000BC522B /* CreateNewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreateNewViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		479B22AE1C22CD4A00BC522B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				476297EB1C2807B300D6BC3F /* libsqlite3.tbd in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		479B22C71C22CD4A00BC522B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		479B22D21C22CD4A00BC522B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		479B22A81C22CD4A00BC522B = {
+			isa = PBXGroup;
+			children = (
+				476297EA1C2807B300D6BC3F /* libsqlite3.tbd */,
+				479B22B31C22CD4A00BC522B /* Remy */,
+				479B22CD1C22CD4A00BC522B /* RemyTests */,
+				479B22D81C22CD4A00BC522B /* RemyUITests */,
+				479B22B21C22CD4A00BC522B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		479B22B21C22CD4A00BC522B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				479B22B11C22CD4A00BC522B /* Remy.app */,
+				479B22CA1C22CD4A00BC522B /* RemyTests.xctest */,
+				479B22D51C22CD4A00BC522B /* RemyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		479B22B31C22CD4A00BC522B /* Remy */ = {
+			isa = PBXGroup;
+			children = (
+				479B22B71C22CD4A00BC522B /* AppDelegate.h */,
+				479B22B81C22CD4A00BC522B /* AppDelegate.m */,
+				479B22F11C22CF3300BC522B /* RemyList.h */,
+				479B22F21C22CF3300BC522B /* RemyList.m */,
+				479B22F41C22CF5000BC522B /* CreateNewViewController.h */,
+				479B22F51C22CF5000BC522B /* CreateNewViewController.m */,
+				476297E71C2806E700D6BC3F /* DBManager.h */,
+				476297E81C2806E700D6BC3F /* DBManager.m */,
+				4718F3C31C3134D900A9183B /* remydb.sql */,
+				479B22C01C22CD4A00BC522B /* Assets.xcassets */,
+				479B22C21C22CD4A00BC522B /* LaunchScreen.storyboard */,
+				479B22C51C22CD4A00BC522B /* Info.plist */,
+				479B22EF1C22CF0D00BC522B /* MainStoryBoard.storyboard */,
+				479B22B41C22CD4A00BC522B /* Supporting Files */,
+			);
+			path = Remy;
+			sourceTree = "<group>";
+		};
+		479B22B41C22CD4A00BC522B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				479B22E71C22CEF900BC522B /* contact2.png */,
+				479B22E81C22CEF900BC522B /* icon-person.png */,
+				479B22E91C22CEF900BC522B /* Default-Portrait.png */,
+				479B22EA1C22CEF900BC522B /* remy_icon.png */,
+				479B22B51C22CD4A00BC522B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		479B22CD1C22CD4A00BC522B /* RemyTests */ = {
+			isa = PBXGroup;
+			children = (
+				479B22CE1C22CD4A00BC522B /* RemyTests.m */,
+				479B22D01C22CD4A00BC522B /* Info.plist */,
+			);
+			path = RemyTests;
+			sourceTree = "<group>";
+		};
+		479B22D81C22CD4A00BC522B /* RemyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				479B22D91C22CD4A00BC522B /* RemyUITests.m */,
+				479B22DB1C22CD4A00BC522B /* Info.plist */,
+			);
+			path = RemyUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		479B22B01C22CD4A00BC522B /* Remy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 479B22DE1C22CD4A00BC522B /* Build configuration list for PBXNativeTarget "Remy" */;
+			buildPhases = (
+				479B22AD1C22CD4A00BC522B /* Sources */,
+				479B22AE1C22CD4A00BC522B /* Frameworks */,
+				479B22AF1C22CD4A00BC522B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Remy;
+			productName = Remy;
+			productReference = 479B22B11C22CD4A00BC522B /* Remy.app */;
+			productType = "com.apple.product-type.application";
+		};
+		479B22C91C22CD4A00BC522B /* RemyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 479B22E11C22CD4A00BC522B /* Build configuration list for PBXNativeTarget "RemyTests" */;
+			buildPhases = (
+				479B22C61C22CD4A00BC522B /* Sources */,
+				479B22C71C22CD4A00BC522B /* Frameworks */,
+				479B22C81C22CD4A00BC522B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				479B22CC1C22CD4A00BC522B /* PBXTargetDependency */,
+			);
+			name = RemyTests;
+			productName = RemyTests;
+			productReference = 479B22CA1C22CD4A00BC522B /* RemyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		479B22D41C22CD4A00BC522B /* RemyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 479B22E41C22CD4A00BC522B /* Build configuration list for PBXNativeTarget "RemyUITests" */;
+			buildPhases = (
+				479B22D11C22CD4A00BC522B /* Sources */,
+				479B22D21C22CD4A00BC522B /* Frameworks */,
+				479B22D31C22CD4A00BC522B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				479B22D71C22CD4A00BC522B /* PBXTargetDependency */,
+			);
+			name = RemyUITests;
+			productName = RemyUITests;
+			productReference = 479B22D51C22CD4A00BC522B /* RemyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		479B22A91C22CD4A00BC522B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "GDB Consultants";
+				TargetAttributes = {
+					479B22B01C22CD4A00BC522B = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = UFEU469SC5;
+					};
+					479B22C91C22CD4A00BC522B = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = UFEU469SC5;
+						TestTargetID = 479B22B01C22CD4A00BC522B;
+					};
+					479B22D41C22CD4A00BC522B = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = UFEU469SC5;
+						TestTargetID = 479B22B01C22CD4A00BC522B;
+					};
+				};
+			};
+			buildConfigurationList = 479B22AC1C22CD4A00BC522B /* Build configuration list for PBXProject "Remy" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 479B22A81C22CD4A00BC522B;
+			productRefGroup = 479B22B21C22CD4A00BC522B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				479B22B01C22CD4A00BC522B /* Remy */,
+				479B22C91C22CD4A00BC522B /* RemyTests */,
+				479B22D41C22CD4A00BC522B /* RemyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		479B22AF1C22CD4A00BC522B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				479B22EB1C22CEF900BC522B /* contact2.png in Resources */,
+				479B22EE1C22CEF900BC522B /* remy_icon.png in Resources */,
+				479B22F01C22CF0D00BC522B /* MainStoryBoard.storyboard in Resources */,
+				4718F3C41C3134D900A9183B /* remydb.sql in Resources */,
+				479B22ED1C22CEF900BC522B /* Default-Portrait.png in Resources */,
+				479B22C41C22CD4A00BC522B /* LaunchScreen.storyboard in Resources */,
+				479B22C11C22CD4A00BC522B /* Assets.xcassets in Resources */,
+				479B22EC1C22CEF900BC522B /* icon-person.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		479B22C81C22CD4A00BC522B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		479B22D31C22CD4A00BC522B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		479B22AD1C22CD4A00BC522B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				479B22B91C22CD4A00BC522B /* AppDelegate.m in Sources */,
+				479B22F61C22CF5000BC522B /* CreateNewViewController.m in Sources */,
+				479B22F31C22CF3300BC522B /* RemyList.m in Sources */,
+				479B22B61C22CD4A00BC522B /* main.m in Sources */,
+				476297E91C2806E700D6BC3F /* DBManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		479B22C61C22CD4A00BC522B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				479B22CF1C22CD4A00BC522B /* RemyTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		479B22D11C22CD4A00BC522B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				479B22DA1C22CD4A00BC522B /* RemyUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		479B22CC1C22CD4A00BC522B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 479B22B01C22CD4A00BC522B /* Remy */;
+			targetProxy = 479B22CB1C22CD4A00BC522B /* PBXContainerItemProxy */;
+		};
+		479B22D71C22CD4A00BC522B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 479B22B01C22CD4A00BC522B /* Remy */;
+			targetProxy = 479B22D61C22CD4A00BC522B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		479B22C21C22CD4A00BC522B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				479B22C31C22CD4A00BC522B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		479B22DC1C22CD4A00BC522B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		479B22DD1C22CD4A00BC522B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		479B22DF1C22CD4A00BC522B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = Remy/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = gdb.Remy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		479B22E01C22CD4A00BC522B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = Remy/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = gdb.Remy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		479B22E21C22CD4A00BC522B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RemyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = gdb.RemyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Remy.app/Remy";
+			};
+			name = Debug;
+		};
+		479B22E31C22CD4A00BC522B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RemyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = gdb.RemyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Remy.app/Remy";
+			};
+			name = Release;
+		};
+		479B22E51C22CD4A00BC522B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = RemyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = gdb.RemyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Remy;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		479B22E61C22CD4A00BC522B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = RemyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = gdb.RemyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Remy;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		479B22AC1C22CD4A00BC522B /* Build configuration list for PBXProject "Remy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				479B22DC1C22CD4A00BC522B /* Debug */,
+				479B22DD1C22CD4A00BC522B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		479B22DE1C22CD4A00BC522B /* Build configuration list for PBXNativeTarget "Remy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				479B22DF1C22CD4A00BC522B /* Debug */,
+				479B22E01C22CD4A00BC522B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		479B22E11C22CD4A00BC522B /* Build configuration list for PBXNativeTarget "RemyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				479B22E21C22CD4A00BC522B /* Debug */,
+				479B22E31C22CD4A00BC522B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		479B22E41C22CD4A00BC522B /* Build configuration list for PBXNativeTarget "RemyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				479B22E51C22CD4A00BC522B /* Debug */,
+				479B22E61C22CD4A00BC522B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 479B22A91C22CD4A00BC522B /* Project object */;
+}
